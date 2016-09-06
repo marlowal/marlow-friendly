@@ -12,10 +12,21 @@
 		margin: 15px;
 		display: inline-block;
 		color: navy;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding-top: 80px;
 	}
 	h1 {
 		font-size: 60px;
 		font-family: 'Bonbon', cursive;
+		color: white;
+		position: fixed;
+		width: 100%;
+		background: navy;
+		top: 0px;
+	}
+	.profile{
+		float: right;
+		width: 40%;
 	}
 }
 
@@ -45,6 +56,7 @@
 	.contact {
 		border: 10px solid white;
 		margin: 8%;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 	.grow:hover
 	{
