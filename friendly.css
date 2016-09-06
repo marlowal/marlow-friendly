@@ -2,6 +2,9 @@
 	padding-left: 10px;
 	padding-top: 10px;
 }
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 @media screen and (min-width: 501px) {
 	p {
@@ -10,12 +13,29 @@
 	.contact {
 		border: 15px solid navy;
 		margin: 15px;
-		display: inline-block;
 		color: navy;
 	}
 	h1 {
 		font-size: 60px;
 		font-family: 'Bonbon', cursive;
+		color: navy;
+	}
+	.even {
+		float: left;
+		width: 50%;
+	}
+	.odd {
+		float: right;
+		width: 50%;
+	}
+	.usernames {
+		 padding: 1em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: 1em;
 	}
 }
 
